@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.send('contact us ');
+  res.render('contact',{title:'Chubby Not Ugly',subject:'Contact Us'});
 });
 
 module.exports = router;
