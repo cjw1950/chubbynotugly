@@ -1,0 +1,28 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 9CD9-7078
+
+ Directory of C:\chubbynotugly\public\images
+
+05/12/2018  12:48 PM    <DIR>          .
+05/12/2018  12:48 PM    <DIR>          ..
+05/09/2018  06:05 AM             7,563 ABigTImage.jpg
+05/09/2018  06:10 AM             7,642 ABigTImage.jpg
+05/09/2018  06:02 AM             7,166 download (1).jpg
+05/09/2018  06:02 AM             9,002 download.jpg
+05/09/2018  06:04 AM             9,002 groupImage2.jpg
+05/09/2018  06:06 AM             6,063 groupImage3.jpg
+05/09/2018  06:07 AM             9,002 groupImageSmile.jpg
+05/09/2018  06:03 AM             4,477 image3.jpg
+05/09/2018  06:04 AM             3,755 image4.jpg
+05/09/2018  06:01 AM            52,852 imgres1
+05/09/2018  06:01 AM            52,857 imgres2
+05/12/2018  12:49 PM                 0 p.txt
+05/09/2018  06:05 AM             4,217 singleImage.jpg
+05/09/2018  06:06 AM             6,143 singleImage2.jpg
+05/09/2018  06:08 AM             5,710 singleImage3.jpg
+05/09/2018  06:08 AM             5,754 singleImage4.jpg
+05/09/2018  06:10 AM             8,693 singleImage5.jpg
+05/09/2018  06:11 AM             5,674 SingleImage6.jpg
+05/09/2018  06:11 AM             3,755 singleImage7.jpg
+              19 File(s)        209,327 bytes
+               2 Dir(s)  428,824,145,920 bytes free

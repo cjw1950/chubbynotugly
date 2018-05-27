@@ -1,2 +1,38 @@
 <h1>{{title}}</h1>
 <p>Welcome to {{subject}}</p>
+
+
+<div  id="root"></div>
+
+
+<script type=text/babel>
+
+function Pictures(props){    
+   
+    return <img src={props.image} height={props.height} width={props.width} /> ;
+
+    }
+
+                 
+
+
+function DisplayImages(props){
+    var pictures =props.pictures
+    const Pix = im.map((image)=><Pictures image={image} height={150} width={200} />);
+    return(
+        Pix          
+    )     
+}
+
+ const im =["/images/ABigTImage.jpg","/images/ABigTImage.jpg","/images/download (1).jpg","/images/download.jpg","/images/groupImage2.jpg","/images/groupImage3.jpg","/images/groupImageSmile.jpg","/images/image3.jpg","/images/image4.jpg","/images/singleImage.jpg","/images/singleImage2.jpg","/images/singleImage3.jpg","/images/singleImage4.jpg","/images/singleImage5.jpg","/images/SingleImage6.jpg","/images/singleImage7.jpg"];
+
+
+ReactDOM.render(
+     <DisplayImages pictures={im} />,
+     document.getElementById('root')
+
+)
+
+
+
+</script>
