@@ -5,6 +5,10 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var cors =require('cors');
+var hbs = require('hbs');
+require('handlebars-form-helpers').register(hbs.handlebars);
+
+
 // my routes
 var about  =require('./routes/about');
 var contact =require('./routes/contact');

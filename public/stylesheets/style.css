@@ -10,3 +10,26 @@ body {
 a {
   color: #00B7FF;
 }
+button{
+  font-size:14pt;
+  font-weight: bold ;
+  position:relative;
+  left:40%;
+}
+
+ input{
+  width:300px;
+  border:solid black  1px;
+  font-size:14pt;
+  font-weight: bold ;
+
+}
+textarea{
+  font-size:14pt;
+  font-weight: bold ;
+  height: 250px;
+  width:500px;
+  position:relative;
+  left:9%;
+  border:solid black 1px;
+}

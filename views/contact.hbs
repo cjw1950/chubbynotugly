@@ -1,2 +1,13 @@
 <h1>{{title}}</h1>
 <p>Welcome to {{subject}}</p>
+<div  style="position:relative;left:25%;top:6px;background:white;width:600px;border:solid black">
+{{#form "/post" class="form"}}
+<h2>{{label "name" "Name"}}{{input "UserName"    person.name}}</h2>
+<h2>{{label "Topic" "Topic" }}{{input "UserTopic"    person.topic}}</h2>
+<h2>{{label "Email" "Email" }}{{input "UserEmail"    person.email}}</h2>
+    {{textarea "comments" "Comments"}}<br/>
+ {{button "save" "Submit form"}}  
+{{/form}}
+
+</div>
+
